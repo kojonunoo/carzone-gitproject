@@ -4,6 +4,7 @@
 from django.db import models
 from datetime import datetime
 from ckeditor.fields import RichTextField
+from django.core.validators import MaxValueValidator
 from multiselectfield import MultiSelectField
 
 # Create your models here.
@@ -119,6 +120,9 @@ class Car(models.Model):
     no_of_owners = models.CharField(max_length=100)
     is_featured = models.BooleanField(default=False)
     created_date = models.DateTimeField(default=datetime.now, blank=True)
+    
+   
+    
 
     def __str__(self):
         return self.car_title

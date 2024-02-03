@@ -1,0 +1,243 @@
+[
+{
+    "model": "pages.team",
+    "pk": 1,
+    "fields": {
+        "first_name": "Kojo",
+        "last_name": "Nunoo",
+        "designation": "Director",
+        "photo": "photos/2023/12/19/EmmanuelPic.jpg",
+        "facebook_link": "http://www.facebook.com",
+        "twitter_link": "http://www.twitter.com",
+        "google_plus_link": "http://www.google.com",
+        "created_date": "2023-12-19T15:24:17.060Z"
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$720000$MB1ETwLmvhRmqWPaFlkQ5F$ANDLIOtZtIf08Z5Zny3MoukeLhANgU57l0tE7EQ+gyE=",
+        "last_login": "2023-12-19T14:28:34.032Z",
+        "is_superuser": true,
+        "username": "djangoadmin",
+        "first_name": "",
+        "last_name": "",
+        "email": "emmanuel.nunoo@outlook.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-12-19T14:24:55.903Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$720000$VY3LYtfKYaI0bmePsPOgUY$nN9tDgy44QTXhnCDj3zqctTC055pG44vsjWLfONLeZM=",
+        "last_login": "2024-02-01T11:13:52.952Z",
+        "is_superuser": true,
+        "username": "Admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "kojonunoo2@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-01-17T20:56:28.803Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "5mdfeb1pzhzqsrofffd1h2qw6if8ltqc",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQAP_C2RBgaRc8eu8bCLuArRpISnsy_t006UGvM5N5ixD3bQ57z2tYkrgKLS6_jCI_cz1EesR6b5Jb3daF5JHI03Y5tZRft7P9G8yxz8eWkEflEYwCHXNxzkUajFaEiMPAUDxZsNYjgh5tYqcKZQPMfjTFgPh8AbprNuc:1rFb5G:9FckeCZD-mvCrIaEGwZp1f8piovYwLyHLrPXHScuuNM",
+        "expire_date": "2024-01-02T14:28:34.032Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "f2g4dgr9griz0q41bd2mnpb4si8wgqh6",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pA6MIW6dN8zNMMwSNVAUtqV8e7apAvd_vfef6mJtjVPW5NlmqO6KFCn3y0QP6TsIN6p3KrmWtZlDnpX9EGbHmuU5_Vw_w4ytfytz5gkAKFjixFScDGhEdeZhNLHITCBh86KNWCNR0q-xzSIZQOBkUW9P_gKOGk:1rVV0y:iKICy6T1BwDB7A0-FDq4rUh_aS9DhUXM3DvWiFEaNj8",
+        "expire_date": "2024-02-15T11:13:52.965Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "jul06jdr9qe0pocg7verlj2jdkfd3lxd",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pA6MIW6dN8zNMMwSNVAUtqV8e7apAvd_vfef6mJtjVPW5NlmqO6KFCn3y0QP6TsIN6p3KrmWtZlDnpX9EGbHmuU5_Vw_w4ytfytz5gkAKFjixFScDGhEdeZhNLHITCBh86KNWCNR0q-xzSIZQOBkUW9P_gKOGk:1rQCyO:SpxlmgAAxN-r3z3HUo09FfZHAf891-TKUBbNPzMtf-E",
+        "expire_date": "2024-01-31T20:57:20.864Z"
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "localhost:8000",
+        "name": "localhost:8000"
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 1,
+    "fields": {
+        "provider": "facebook",
+        "provider_id": "",
+        "name": "Facebook login",
+        "client_id": "1109924257039746",
+        "secret": "e64587eb9dd364061d29459a18b9db54",
+        "key": "",
+        "settings": {},
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 2,
+    "fields": {
+        "provider": "google",
+        "provider_id": "",
+        "name": "Google Login",
+        "client_id": "718942813118-f4rshrb76qulvpns5gk07od45v7p0h8s.apps.googleusercontent.com",
+        "secret": "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",
+        "key": "",
+        "settings": {},
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2023-12-19T15:24:17.062Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Team object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2023-12-19T15:25:19.525Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Team object (1)",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2023-12-19T21:15:43.479Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Kojo",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2024-01-31T21:48:08.954Z",
+        "user": [
+            "Admin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2024-01-31T21:51:18.603Z",
+        "user": [
+            "Admin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook login",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2024-01-31T21:53:41.983Z",
+        "user": [
+            "Admin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "1",
+        "object_repr": "localhost:8000",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2024-02-01T00:23:51.652Z",
+        "user": [
+            "Admin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "2",
+        "object_repr": "Google Login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}
+]

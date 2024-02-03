@@ -32,7 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-   'cars.apps.CarsConfig',
+    'cars.apps.CarsConfig',
     'pages.apps.PagesConfig',
     'accounts.apps.AccountsConfig',
     'contacts.apps.ContactsConfig',
@@ -48,7 +48,6 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
-    'users.apps.UsersConfig',
     
       # Providers
     'allauth.socialaccount.providers.facebook',
@@ -168,8 +167,8 @@ SITE_ID = 1
 # Email sending
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = '########'
-EMAIL_HOST_PASSWORD = '#######'
+EMAIL_HOST_USER = 'kojonunoo2@gmail.com'
+EMAIL_HOST_PASSWORD = '@Francisca76'
 EMAIL_USE_TLS = True
 
 
